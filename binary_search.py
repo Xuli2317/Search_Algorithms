@@ -27,7 +27,7 @@ def binary_search():
     else:
         search_complete = True
 
-# Schedule the binary search to run every 0.5 seconds
+# Schedule the binary search to run every 1.2 seconds
 pyglet.clock.schedule_interval(lambda dt: binary_search(), 1.2)
 
 @window.event
